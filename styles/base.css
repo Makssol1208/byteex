@@ -1,0 +1,14 @@
+@import url(https://db.onlinewebfonts.com/c/13ab13418f633c1b0516fed6e30bedbc?family=Suisse+Int%27l);
+
+:root {
+    --font-primary: 'Sofia Pro';;
+    --font-secondary: "Suisse Int'l";;
+    --color-title: #01005B;
+    --color-gray: #676869;
+    --color-lightgray: #6c6c6c;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
