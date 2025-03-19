@@ -1,0 +1,101 @@
+.hero {
+    margin-top: 31px;
+    margin-bottom: 61px;
+}
+
+.hero-logo {
+    margin-bottom: 61px;
+}
+
+.hero-logo__img {
+    width: 200px;
+    height: 35px;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--font-primary);
+    font-weight: normal;
+}
+
+.hero-text {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-text__title {
+    max-width: 592px;
+    margin-bottom: 25px;
+    font-size: 38px;
+    letter-spacing: 2px;
+    color: var(--color-title);
+}
+
+.hero-advants {
+    display: flex;
+    flex-direction: column;
+    row-gap: 23px;
+    margin-bottom: 36px;
+}
+
+.hero-advants__desc {
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+}
+
+.hero-advants__desc p {
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    color: var(--color-gray);
+}
+
+.hero-advants__img {
+    width: 31px;
+    height: 31px;
+}
+
+.hero-btn {
+    display: inline-block;
+    position: absolute;
+    width: 362px;
+
+    text-align: center;
+    padding: 11px 50px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 8px;
+
+    color: #fff;
+    background-color: var(--color-title);
+    transition: 0.3s ease-in;
+}
+
+.hero-btn::after {
+    content: "";
+    display: block;
+    position: relative;
+    top: 8px;
+    left: 250px;
+    width: 23px;
+    height: 10px;
+    background-image: url('./../../img/hero/Vector.png');
+}
+
+.hero-btn:hover {
+    background-color: #2f2d92;
+}
+
+.hero-img {
+    position: relative;
+}
+
+.hero-img img {
+    position: absolute;
+    max-width: unset;
+    width: 725px;
+    height: 422px;
+    top: 5px;
+    right: -2px;
+}

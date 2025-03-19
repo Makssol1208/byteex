@@ -2,7 +2,5 @@
 @import "./base.css";
 
 /* Blocks */
-
-body {
-  font-family: "Suisse Int'l";
-}
+@import "./blocks/top-info.css";
+@import "./blocks/hero.css";
