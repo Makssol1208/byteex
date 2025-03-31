@@ -1,12 +1,12 @@
 .benefits {
-  padding-top: 77px;
+  padding: 77px 0 54px;
+  font-family: var(--font-primary);
   background: linear-gradient(
     180deg,
     #f9f0e5 0%,
     rgba(249, 240, 229, 0.18) 43.05%,
     rgba(249, 240, 229, 0) 100%
   );
-  height: 1200px;
 }
 
 .benefits-title {
@@ -32,6 +32,7 @@
 .benefits-text {
   padding-top: 3px;
 }
+
 .benefits-text__title {
   margin-bottom: 74px;
   font-family: var(--font-primary);
@@ -47,23 +48,49 @@
 }
 
 .benefits-advants__desc {
-    display: flex;
+  display: flex;
+  column-gap: 32px;
+  margin-right: 15px;
 }
 
 .benefits-advants__top {
-    padding-left: 41px;
+  padding-top: 11px;
+}
+
+.benefits-advants__top h5 {
+  padding-bottom: 16px;
+  font-size: 22px;
+  line-height: 1px;
+  color: var(--color-title);
+}
+
+.benefits-advants__top p {
+  max-width: 497px;
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--color-lightgray);
 }
 
 .benefits-advants__img {
-    display: block;
-    width: 42px;
-    height: 42px;
-}
-
-.hero-advants__img {
+  display: block;
+  width: 42px;
+  height: 42px;
 }
 
 .benefits-img {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.benefits-img img {
   width: 433px;
   height: 648px;
+}
+
+.benefits-img span {
+  padding-top: 13px;
+  font-family: var(--font-secondary);
+  font-size: 13px;
+  color: var(--color-gray);
 }
