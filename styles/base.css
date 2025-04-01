@@ -11,6 +11,7 @@
 html,
 body {
   height: 100%;
+  overflow-x: hidden;
 }
 
 .container {
@@ -19,12 +20,22 @@ body {
   padding: 0 15px;
 }
 
+.container-small {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container-large {
+  max-width: 1495px;
+  margin: 0 auto;
+}
+
 .btn {
   display: inline-block;
-  position: absolute;
   width: 362px;
   text-align: center;
-  padding: 10px 50px 8px 24px;
+  padding: 10px 50px 5px 24px;
   font-size: 18px;
   font-family: var(--font-primary);
   letter-spacing: 1px;
@@ -50,3 +61,37 @@ body {
 .btn:hover {
   background-color: #2f2d92;
 }
+
+/* Rating button with stars */
+
+.rating-wrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.rating-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 15px;
+  padding-top: 11px;
+}
+
+.rating-bottom span {
+  font-family: var(--font-secondary);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 0.8;
+  letter-spacing: 1px;
+  color: #828282;
+}
+
+.rating-stars img {
+  width: 80px;
+  height: 13px;
+  margin-top: 2px;
+}
+
+/* ./Rating button with stars */

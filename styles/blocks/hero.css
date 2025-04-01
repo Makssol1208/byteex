@@ -1,6 +1,6 @@
 .hero {
   margin-top: 31px;
-  margin-bottom: 190px;
+  margin-bottom: -70px;
 }
 
 .hero-logo {
@@ -70,26 +70,24 @@
 }
 
 .hero-comments {
-  position: absolute;
   margin-top: 46px;
   padding: 16px;
+
   width: 416px;
-  height: 172px;
-  top: 527px;
+  min-height: 172px;
 
   font-family: var(--font-secondary);
-  background-color: #fff;
-  color: var(--color-gray);
   border-radius: 8px;
   box-shadow: 0px 3px 10px 0px #00000014;
-  z-index: 9;
+  background-color: #fff;
+  color: var(--color-gray);
   cursor: pointer;
 }
 
 .hero-comments__head {
   display: flex;
   align-items: center;
-  padding-bottom: 12px;
+  margin-bottom: 12px;
 }
 
 .hero-comments__photo {

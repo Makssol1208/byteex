@@ -1,13 +1,12 @@
 .connection {
-    margin-bottom: 75px;
     background-color: #f0eff0;
 }
 
 .connection-content {
     display: flex;
     justify-content: space-between;
-    column-gap: 30px;
-    padding: 83px 0 56px;
+    column-gap: 35px;
+    padding: 83px 0 95px;
 }
 
 .connection-img img {
