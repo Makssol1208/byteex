@@ -18,3 +18,20 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+.btn {
+  display: inline-block;
+  padding: 15px 60px;
+  text-align: center;
+  font-size: 18px;
+  font-family: var(--font-secondary);
+  letter-spacing: 1px;
+  border-radius: 8px;
+  color: #fff;
+  background-color: var(--color-title);
+  transition: 0.3s ease-in;
+}
+
+.btn:hover {
+  background-color: #2f2d92;
+}

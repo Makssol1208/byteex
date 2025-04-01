@@ -10,7 +10,6 @@
 }
 
 .benefits-title {
-  padding-bottom: 30px;
   text-align: center;
   font-size: 20px;
   font-family: var(--font-primary);
@@ -18,10 +17,15 @@
 }
 
 .benefits-artboard {
+  padding: 30px 0 110px;
+}
+
+.brands-list {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 110px;
+  column-gap: 30px;
+  mix-blend-mode: multiply;
 }
 
 .benefits-content {
