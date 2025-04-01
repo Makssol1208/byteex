@@ -21,15 +21,30 @@ body {
 
 .btn {
   display: inline-block;
-  padding: 15px 60px;
+  position: absolute;
+  width: 362px;
   text-align: center;
+  padding: 10px 50px 8px 24px;
   font-size: 18px;
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
   letter-spacing: 1px;
+  line-height: 1.2;
   border-radius: 8px;
+
   color: #fff;
   background-color: var(--color-title);
   transition: 0.3s ease-in;
+}
+
+.btn::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: -14px;
+  left: 258px;
+  width: 23px;
+  height: 10px;
+  background-image: url("./../../img/hero/Vector.png");
 }
 
 .btn:hover {
