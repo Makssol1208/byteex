@@ -56,6 +56,11 @@ body {
   width: 23px;
   height: 10px;
   background-image: url("./../../img/hero/Vector.png");
+  transition: margin 0.3s ease-in;
+}
+
+.btn:hover::after {
+  margin-left: 10px;
 }
 
 .btn:hover {

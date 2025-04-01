@@ -27,7 +27,7 @@
   background-color: #f0eeef;
   border-radius: 8px;
   outline: 1px solid #ededed;
-  transition: all 0.5s;
+  transition: all 0.6s;
   cursor: pointer;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .card img {
-  transition: all 0.5s;
+  transition: all 0.6s;
 }
 
 .card img:hover {
@@ -45,7 +45,7 @@
 }
 
 .card h5:hover {
-  transform: translateY(15px);
+  transform: translateY(10px);
 }
 
 .card.center {
