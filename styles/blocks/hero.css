@@ -1,4 +1,6 @@
 .hero {
+  display: flex;
+  flex-direction: column;
   margin-top: 31px;
   margin-bottom: -70px;
 }
@@ -13,6 +15,7 @@
 }
 
 .hero-content {
+  position: relative;
   display: flex;
   justify-content: space-between;
   font-family: var(--font-primary);
@@ -28,6 +31,7 @@
   max-width: 592px;
   margin-bottom: 25px;
   font-size: 38px;
+  font-family: var(--font-primary);
   letter-spacing: 2px;
   color: var(--color-title);
 }
@@ -46,6 +50,7 @@
 }
 
 .hero-advants__desc p {
+  max-width: 430px;
   font-size: 15px;
   letter-spacing: 0.5px;
   color: var(--color-gray);
@@ -57,16 +62,14 @@
 }
 
 .hero-img {
-  position: relative;
+  position: absolute;
+  top: -110px;
+  right: 0;
 }
 
 .hero-img img {
-  position: absolute;
   max-width: unset;
   width: 725px;
-  height: 422px;
-  top: 5px;
-  right: -2px;
 }
 
 .hero-comments {
@@ -95,6 +98,11 @@
   padding-right: 14px;
   object-fit: cover;
   background-repeat: no-repeat;
+}
+
+.hero-comments__photo img {
+  width: 39px;
+  height: 39px;
 }
 
 .hero-comments__name {
