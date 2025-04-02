@@ -34,6 +34,12 @@
 .reviews-photos img {
   width: 128px;
   height: 128px;
+  transition: all 0.6s;
+  cursor: pointer;
+}
+
+.reviews-photos img:hover {
+  transform: translateY(-6px);
 }
 
 .reviews-comments {
