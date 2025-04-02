@@ -32,7 +32,6 @@
 }
 
 .card:hover {
-  border: 1px solid #eee;
   transform: translateY(15px);
 }
 
