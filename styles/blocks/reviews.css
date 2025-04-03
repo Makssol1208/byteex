@@ -84,10 +84,12 @@
   font-size: 15px;
   line-height: 1;
   letter-spacing: 1px;
+  color: var(--color-gray);
   font-family: var(--font-primary);
 }
 
 .reviews-comments__stars {
+  margin-bottom: 6px;
   width: 60px;
   height: 10px;
 }
