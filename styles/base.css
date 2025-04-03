@@ -71,6 +71,14 @@ body {
   background-color: #1a1875;
 }
 
+.rating-wrap.mobile {
+  display: none;
+}
+
+.connection-title.mobile {
+  display: none;
+}
+
 /* Rating button with stars */
 
 .rating-wrap {
