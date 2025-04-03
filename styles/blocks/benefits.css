@@ -1,4 +1,6 @@
 .benefits {
+  display: flex;
+  flex-direction: column;
   position: relative;
   padding: 77px 0 54px;
   font-family: var(--font-primary);
@@ -30,9 +32,19 @@
   mix-blend-mode: multiply;
 }
 
-.benefits-content {
+.brands-list__wrap {
+  min-width: 111px;
+}
+
+.benefits-content__wrap {
   display: flex;
   justify-content: space-between;
+  column-gap: 180px;
+}
+
+.benefits-content {
+  display: flex;
+  flex-direction: column;
 }
 
 .benefits-text {
