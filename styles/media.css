@@ -433,9 +433,6 @@
   .hero-advants__desc p {
     font-size: 12px;
   }
-  .btn {
-    width: 340px;
-  }
   .hero-comments__stars img {
     padding-right: 8px;
     width: 60px;
@@ -479,11 +476,7 @@
     row-gap: 16px;
   }
   .btn {
-    width: 290px;
-  }
-  .btn::after {
-    top: -14px;
-    left: 235px;
+    width: 312px;
   }
   .hero-comments__text {
     font-size: 11px;
