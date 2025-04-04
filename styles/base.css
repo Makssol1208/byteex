@@ -25,6 +25,10 @@ body {
 }
 
 .container-small {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   max-width: 1150px;
   margin: 0 auto;
   padding: 0 15px;
@@ -36,10 +40,13 @@ body {
 }
 
 .btn {
-  display: inline-block;
-  width: 362px;
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  max-width: 362px;
+  height: 56px;
   text-align: center;
-  padding: 10px 50px 5px 24px;
+  padding: 20px 50px;
   font-size: 18px;
   font-family: var(--font-primary);
   letter-spacing: 1px;
@@ -51,24 +58,12 @@ body {
   transition: 0.3s ease-in;
 }
 
-.btn::after {
-  content: "";
-  display: block;
-  position: relative;
-  top: -14px;
-  left: 270px;
-  width: 23px;
-  height: 10px;
-  background-image: url("./../../img/hero/Vector.png");
-  transition: margin 0.3s ease-in;
-}
-
-.btn:hover::after {
-  margin-left: 10px;
-}
-
 .btn:hover {
   background-color: #1a1875;
+}
+
+.btn.mobile {
+  display: none;
 }
 
 .rating-wrap.mobile {

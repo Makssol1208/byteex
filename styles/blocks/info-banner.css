@@ -33,9 +33,7 @@
 }
 
 hr {
-  width: 1px;
-  border: 0;
-  background-color: #c4c4c4;
+  border: 1px solid #eaeaea;
 }
 
 .info-block img {

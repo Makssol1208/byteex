@@ -12,16 +12,6 @@
   .hero-advants__desc p {
     font-size: 15px;
   }
-  .btn {
-    width: 320px;
-    text-align: center;
-    padding: 11px 39px 6px 10px;
-    font-size: 16px;
-  }
-  .btn::after {
-    top: -13px;
-    left: 255px;
-  }
   .hero-comments {
     max-width: 388px;
     width: auto;
@@ -32,6 +22,14 @@
   .connection-content {
     column-gap: 25px;
     padding: 60px 0 75px;
+  }
+  .cards-wrapper {
+    column-gap: 30px;
+  }
+  .card {
+    width: 300px;
+    min-height: 300px;
+    padding: 65px 35px 11px;
   }
 }
 
@@ -52,6 +50,9 @@
     align-items: center;
   }
   .hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 25px;
     text-align: center;
   }
@@ -73,17 +74,6 @@
   .hero-advants {
     margin-bottom: 56px;
     row-gap: 36px;
-  }
-  .btn {
-    display: block;
-    margin: 0 auto;
-    width: 400px;
-    padding: 15px 35px 10px 10px;
-    font-size: 18px;
-  }
-  .btn::after {
-    top: -14px;
-    left: 328px;
   }
   .hero-comments {
     margin-top: 50px;
@@ -122,17 +112,16 @@
   }
   .order {
     display: flex;
+    padding-top: 50px;
     flex-direction: column;
-
   }
   .rating-wrap {
     width: 400px;
     justify-self: center;
-    /* max-width: 400px; */
-    /* margin: 0 auto; */
   }
   .cards-wrapper {
-    column-gap: 20px;
+    flex-wrap: wrap;
+    gap: 30px;
   }
   .reviews-comments__wrapper {
     margin: 55px 0 40px;
@@ -143,6 +132,10 @@
   .reviews-comments {
     margin: 0;
   }
+  .faq {
+    margin: 68px 0 88px;
+    font-family: var(--font-primary);
+  }
   .faq-wrapper {
     justify-content: center;
   }
@@ -150,7 +143,7 @@
     display: none;
   }
   .faq-title {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     text-align: center;
     font-size: 28px;
   }
@@ -160,13 +153,13 @@
   }
 }
 
-@media (max-width: 940px) {
+@media (max-width: 840px) {
   .btn.mobile {
     display: none;
   }
-}
-
-@media (max-width: 840px) {
+  .btn.connect {
+    display: none;
+  }
   .benefits-text__title {
     margin: 0 auto;
     max-width: 330px;
@@ -202,7 +195,7 @@
     padding-bottom: 40px;
   }
   .rating-wrap.mobile {
-    display: block;
+    display: flex;
     width: 100%;
     margin-top: 50px;
     transition: 0.3s ease-in;
@@ -240,8 +233,21 @@
     margin: 0 auto 50px;
     max-width: 530px;
   }
+  .info {
+    margin-bottom: 55px;
+  }
+  .final-header {
+    margin-bottom: 0;
+}
   details p {
     max-width: 500px;
+  }
+}
+
+@media (max-width: 740px) {
+  .final-img__group,
+  .final-bottom {
+    display: none;
   }
 }
 
@@ -305,9 +311,6 @@
   .final {
     padding-bottom: 60px;
   }
-  .final-header {
-    margin-bottom: 25px;
-  }
   .final-header p {
     max-width: 380px;
     margin-bottom: 40px;
@@ -321,10 +324,9 @@
   }
 }
 
-@media (max-width: 740px) {
-  .final-img__group,
-  .final-bottom {
-    display: none;
+@media (max-width: 570px) {
+  .final-header__title {
+    margin-bottom: 20px;
   }
 }
 
@@ -350,13 +352,6 @@
   }
 }
 
-@media (max-width: 570px) {
-  .final-img img {
-    max-width: 450px;
-    margin-bottom: 40px;
-  }
-}
-
 @media (max-width: 520px) {
   .hero {
     margin-top: 20px;
@@ -371,13 +366,6 @@
   }
   .hero-advants__desc p {
     font-size: 13px;
-  }
-  .btn {
-    width: 370px;
-  }
-  .btn::after {
-    top: -14px;
-    left: 290px;
   }
   .benefits-img {
     width: 350px;
@@ -417,6 +405,12 @@
   .final-img img {
     max-width: 530px;
     margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 460px) {
+  .final-img img {
+    max-width: 420px;
   }
 }
 
@@ -468,9 +462,6 @@
   .card {
     width: 290px;
     min-height: 290px;
-  }
-  .final-img img {
-    max-width: 400px;
   }
 }
 
@@ -526,7 +517,10 @@
     max-width: 330px;
     padding: 0 8px;
   }
+  .final-header p {
+    margin-bottom: 30px;
+}
   .final-img img {
-    max-width: 360px;
+    max-width: 370px;
   }
 }
